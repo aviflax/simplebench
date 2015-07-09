@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"os"
 	"strings"
 	"time"
 )
@@ -21,8 +22,13 @@ type (
 )
 
 func main() {
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "5000"
+	}
+
 	http.HandleFunc("/time", handle)
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	log.Fatal(http.ListenAndServe(":"+port, nil))
 }
 
 func handle(w http.ResponseWriter, r *http.Request) {
