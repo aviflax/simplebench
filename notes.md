@@ -59,7 +59,7 @@ All results are requests per second from the EC2 client machine to the server un
 
 TO DO: re-run these tests through an ELB
 
-Concurrency | Req 1 | Req 2 | Req 3 | Req 4 | Req 5 | Mean  | Std Dev
+Concurrency | Run 1 | Run 2 | Run 3 | Run 4 | Run 5 | Mean  | Std Dev
 ----------- | ----- | ----- | ----- | ----- | ----- | ----- | -------
 100         | 16765 | 16852 | 16739 | 16874 | 16793 | 16805 | 57
 200         | 16968 | 16976 | 17015 | 16964 | 16965 | 16978 | 21
@@ -70,13 +70,13 @@ Concurrency | Req 1 | Req 2 | Req 3 | Req 4 | Req 5 | Mean  | Std Dev
 
 #### 9 July 2015
 
-Dynos | Concurrency | Req 1 | Req 2 | Req 3 | Req 4 | Req 5 | Mean | Std Dev
+Dynos | Concurrency | Run 1 | Run 2 | Run 3 | Run 4 | Run 5 | Mean | Std Dev
 ----- | ----------- | ----- | ----- | ----- | ----- | ----- | ---- | -------
 1     | 100         | 4701  | 4333  | 5351  | 4752  | 3998  | 4627 | 507
 
 #### 13 July 2015
 
-Dynos | Concurrency | Req 1 | Req 2 | Req 3 | Req 4 | Req 5 | Mean | Std Dev
+Dynos | Concurrency | Run 1 | Run 2 | Run 3 | Run 4 | Run 5 | Mean | Std Dev
 ----- | ----------- | ----- | ----- | ----- | ----- | ----- | ---- | -------
 2     | 100         | 3023  | 3767  | 6869  | 2789  | 3132  | 3916 | 1690
 2     | 200         | 4968  | 5423  | 5140  | 5281  | 5054  | 5173 | 181
@@ -88,7 +88,7 @@ Dynos | Concurrency | Req 1 | Req 2 | Req 3 | Req 4 | Req 5 | Mean | Std Dev
 
 #### 13 July 2015
 
-Dynos | Concurrency | Req 1 | Req 2 | Req 3 | Req 4 | Req 5 | Mean  | Std Dev
+Dynos | Concurrency | Run 1 | Run 2 | Run 3 | Run 4 | Run 5 | Mean  | Std Dev
 ----- | ----------- | ----- | ----- | ----- | ----- | ----- | ----- | -------
 1     | 100         | 7751  | 9723  | 8656  | 8803  | 7597  | 8506  | 864
 1     | 200         | 10979 | 10874 | 10688 | 10758 | 10829 | 10826 | 111
